@@ -1,0 +1,123 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.hero{
+  margin-bottom: 0px;
+  width: auto;
+  height: 350px;
+  background-image: url(photos/bursa.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+h1{
+  font-size: 100px;
+  color: rgb(38, 93, 49);
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+h2{
+  color:rgb(255, 255, 255) ;
+  text-shadow: 0px 0px 30px rgb(5, 56, 22);
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.signs{
+  margin:0;
+  background: linear-gradient(green, white);
+  overflow: hidden;
+  height: 350px;
+}
+
+.text{
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: rgb(226, 226, 213);
+}
+
+.photos{
+  margin-top: -20px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.hacivat-karagoz{
+  margin-left: -15px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.stadium{
+  margin-left: -40px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.kozahan{
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.guide{
+ width: 430px;
+ height: 220px;
+ border-bottom: solid 7px rgb(25, 115, 25);
+ display: flex;  
+ align-items: center; 
+ margin: auto;
+ background-color: rgb(108, 225, 147);
+ font-style: italic;
+}
+
+h3{
+  margin-left: 60px;
+  color: rgb(249, 248, 248);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.info{
+  margin-left: 8px;
+  margin-right: 2px;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.emre{
+ border-color: solid;
+ border-radius: 5px;
+ border-color: black;
+ width: 150px;
+ height: 180px;
+ padding-left: 12px;
+}
+
+
+
+
+
+
